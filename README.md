@@ -28,8 +28,8 @@ Methods have been implemented to
 * Writing custom test cases
      Wrote custom test cases in tester.py
 ### Use
-All the implementation code can be found at dijkstra.py
-All the test cases can be found at test.py
+* All the implementation code can be found at dijkstra.py
+* All the test cases can be found at test.py
 ### Run
 dijkstra(n1,n2)
 <img src="DIJ.PNG">
