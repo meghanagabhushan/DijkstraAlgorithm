@@ -32,12 +32,12 @@ Methods have been implemented to
 * All the test cases can be found at test.py
 ### Run
 The graph has been hardcoded :
-<img src="GRAPH.PNG">
-dijkstra(n1,n2)
-<img src="DIJ.PNG">
-add_edge(n1,n2,cost)
-<img src="ADD.PNG">
-remove_edge(n1,n2)
+<img src="GRAPH.PNG"><br>
+dijkstra(n1,n2)<br>
+<img src="DIJ.PNG"><br>
+add_edge(n1,n2,cost)<br>
+<img src="ADD.PNG"><br>
+remove_edge(n1,n2)<br>
 <img src="REMOVE.PNG">
 ### Future
 * Develop an interactive web page using Python's flask framework for the implemented functionality
