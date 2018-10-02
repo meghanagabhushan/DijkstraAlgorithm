@@ -31,6 +31,8 @@ Methods have been implemented to
 * All the implementation code can be found at dijkstra.py
 * All the test cases can be found at test.py
 ### Run
+The graph has been hardcoded :
+<img src="GRAPH.PNG">
 dijkstra(n1,n2)
 <img src="DIJ.PNG">
 add_edge(n1,n2,cost)
