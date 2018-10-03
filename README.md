@@ -7,7 +7,7 @@ Dijkstra's algorithm, conceived by Dutch computer scientist Edsger Dijkstra, is 
 * An implementation of Dijkstra's algorithm.
 * Unit tests for all public functions.
 * README detailing your design decisions, resulting tradeoffs, and limitations of your implementations.
-### Approach
+### Approach and Design
 The Approach used for the implementation is simple:
 * Read a graph with edges and node information from the source file.
 * Initialize the graph and save the information in the NamedTuple.
