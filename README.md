@@ -54,15 +54,7 @@ Methods have been implemented to
 * All the test cases can be found at test.py
 * The Input graph is stored in graph.txt file. Each line in the file contains -> node1,node2,cost 
 ### Run
-The graph has been hardcoded :
-<img src="screenshots/GRAPH.PNG"><br>
-You can change the input graph in the graph.txt file.<br>
-dijkstra(n1,n2)<br>
-<img src="screenshots/DIJ.PNG"><br>
-add_edge(n1,n2,cost)<br>
-<img src="screenshots/ADD.PNG"><br>
-remove_edge(n1,n2)<br>
-<img src="screenshots/REMOVE.PNG">
+<img src="screenshots/result.PNG">
 ### Limitations
 * The implementation only supports undirected graph.
 * The input and output is currently text based and does not provide a graphical UI.
