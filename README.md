@@ -56,7 +56,7 @@ Methods have been implemented to
 ### Run
 The graph has been hardcoded :
 <img src="screenshots/GRAPH.PNG"><br>
-You can change the input graph in the graph.txt file.
+You can change the input graph in the graph.txt file.<br>
 dijkstra(n1,n2)<br>
 <img src="screenshots/DIJ.PNG"><br>
 add_edge(n1,n2,cost)<br>
