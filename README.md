@@ -7,6 +7,8 @@ Dijkstra's algorithm, conceived by Dutch computer scientist Edsger Dijkstra, is 
 * An implementation of Dijkstra's algorithm.
 * Unit tests for all public functions.
 * README detailing your design decisions, resulting tradeoffs, and limitations of your implementations.
+### Approach
+
 ### Rationale and Tradeoffs
 #### Algorithm Performance:
 * The complexity of the Dijkstra's algorithm is O(ElogV) where E is the number of edges and V is the number of vertices. I used the Data Structures that would not affect the time complexity of the algorithm.
