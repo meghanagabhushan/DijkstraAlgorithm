@@ -55,6 +55,7 @@ Methods have been implemented to
 * The Input graph is stored in graph.txt file. Each line in the file contains -> node1,node2,cost 
 ### Run
 <img src="screenshots/result.PNG">
+
 ### Limitations
 * The implementation only supports undirected graph.
 * The input and output is currently text based and does not provide a graphical UI.
