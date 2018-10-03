@@ -16,7 +16,10 @@ For example, the initial graph is:
 * Compute the shortest path between two nodes using the dijkstra algorithm
 The shortest path from a->d is (a,c,d)
 * Additionally, add or remove nodes and edges from the graph.
-
+If edge (a,c) is removed, the new shortest path from a->d is (a,e,d)
+<img src="screenshots/rem.PNG">
+If a edge, (d,a,2) is added, the new shortest path from a->d is (a,d)
+<img src="screenshots/addi.PNG">
 
 ### Rationale and Tradeoffs
 #### Algorithm Performance:
