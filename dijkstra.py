@@ -28,7 +28,7 @@ class Graph:
             )
         )
 
-    #get node pairs
+    # get node pairs
     def get_node_pairs(self, n1, n2, both_ends=True):
         if both_ends:
             node_pairs = [[n1, n2], [n2, n1]]
@@ -93,9 +93,33 @@ class Graph:
             path.appendleft(current_vertex)
         return path
 
-# Input graph
-graph = Graph([
-    ("a", "b", 7), ("a", "c", 4), ("a", "f", 14), ("b", "c", 10),
-    ("b", "d", 15), ("c", "d", 11), ("c", "f", 2), ("d", "e", 6),
-    ("e", "f", 9)])
 
+# Input graph
+# graph = Graph([
+#     ("a", "b", 7), ("a", "c", 4), ("a", "f", 14), ("b", "c", 10),
+#     ("b", "d", 15), ("c", "d", 11), ("c", "f", 2), ("d", "e", 6),
+#     ("e", "f", 9)])
+
+# Reading the input graph from graph.txt
+input = []
+with open('graph.txt', "r") as fp:
+    for i in fp.readlines():
+        tmp = i.split(",")
+        try:
+            input.append((tmp[0], tmp[1], int(tmp[2])))
+        except:
+            pass
+
+# Initialize graph and execute the methods
+graph = Graph(input)
+
+# get shortest path between nodes a and d
+print(graph.dijkstra("a", "d"))
+
+# remove edge (a,c) and check the shortest path between a and d
+graph.remove_edge("a","c")
+print(graph.dijkstra("a", "d"))
+
+# add a new edge (a,d) with cost 2 and check the shortest path between a and d
+graph.add_edge("a","d",2)
+print(graph.dijkstra("a", "d"))
