@@ -20,6 +20,7 @@ If edge (a,c) is removed, the new shortest path from a->d is (a,e,d)
 <img src="screenshots/rem.PNG">
 If a edge, (d,a,2) is added, the new shortest path from a->d is (a,d)
 <img src="screenshots/addi.PNG">
+<br>
 ### Rationale and Tradeoffs
 #### Algorithm Performance:
 * The complexity of the Dijkstra's algorithm is O(ElogV) where E is the number of edges and V is the number of vertices. I used the Data Structures that would not affect the time complexity of the algorithm.
