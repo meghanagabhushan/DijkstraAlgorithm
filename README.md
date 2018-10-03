@@ -7,20 +7,6 @@ Dijkstra's algorithm, conceived by Dutch computer scientist Edsger Dijkstra, is 
 * An implementation of Dijkstra's algorithm.
 * Unit tests for all public functions.
 * README detailing your design decisions, resulting tradeoffs, and limitations of your implementations.
-### Approach
-The Approach used for the implementation is simple:
-* Read a graph with edges and node information from the source file.
-* Initialize the graph and save the information in the NamedTuple.
-For example, the initial graph is:
-<img src = "screenshots/init.PNG">
-* Compute the shortest path between two nodes using the dijkstra algorithm
-The shortest path from a->d is (a,c,d)
-* Additionally, add or remove nodes and edges from the graph.
-If edge (a,c) is removed, the new shortest path from a->d is (a,e,d)
-<img src="screenshots/rem.PNG">
-If a edge, (d,a,2) is added, the new shortest path from a->d is (a,d)
-<img src="screenshots/addi.PNG">
-<br>
 ### Rationale and Tradeoffs
 #### Algorithm Performance:
 * The complexity of the Dijkstra's algorithm is O(ElogV) where E is the number of edges and V is the number of vertices. I used the Data Structures that would not affect the time complexity of the algorithm.
