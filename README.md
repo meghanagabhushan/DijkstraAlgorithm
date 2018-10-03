@@ -13,6 +13,7 @@ The Approach used for the implementation is simple:
 * Initialize the graph and save the information in the NamedTuple.
 For example, the initial graph is:
 <img src = "screenshots/init.PNG">
+
 * Compute the shortest path between two nodes using the dijkstra algorithm
 The shortest path from a->d is (a,c,d)
 * Additionally, add or remove nodes and edges from the graph.
